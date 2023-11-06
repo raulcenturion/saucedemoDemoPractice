@@ -1,0 +1,46 @@
+{
+    "git.autofetch": true,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "settingsSync.ignoredExtensions": [
+    
+    ],
+    "settingsSync.ignoredSettings": [],
+    "workbench.iconTheme": "vscode-icons",
+    "cucumberautocomplete.steps": [
+    
+        "cypress/integration/common/stepdefinitions/**/*.js",
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "auto-rename-tag.activationOnLanguage": [
+
+        "*"
+    ],
+    "[feature]": {
+        "editor.formatOnSave": true,
+    },
+
+    "cucumberautocomplete.syncfeatures":"cypress/integration/features/**/*.feature",
+    
+    "workbench.colorTheme": "Abyss",
+    "files.autoSave": "off",
+    "git.openRepositoryInParentFolders": "never",
+    "cucumberautocomplete.strictGherkinValidation": false,
+    "debug.javascript.defaultRuntimeExecutable": {
+        
+        "pwa-node": "node"
+    },
+    "cypressHelper.cucumberFixtureAutocompleteOnQuotes": true,
+    "cypressHelper.cucumberTagsAutocomplete": {
+
+        "enable": true,
+        "allurePlugin": false,
+        "tags": [
+            "focus",
+            "login",
+            "full",
+            "assessment"
+        ]
+    },
+}

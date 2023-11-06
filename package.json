@@ -1,0 +1,36 @@
+{
+  "name": "framework-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e --browser chrome",
+    "run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "@reportportal/agent-js-cypress": "^5.0.2",
+    "cypress": "^13.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-xpath": "^1.6.2",
+    "minimist": "^1.2.5",
+    "mocha": "^9.0.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-sql-server": "^1.0.0",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "string-format": "^2.0.0"
+  }
+}

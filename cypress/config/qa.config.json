@@ -1,0 +1,20 @@
+{
+  "env": {
+    "login_url": "https://www.saucedemo.com/",
+    "home_url": "https://www.saucedemo.com/inventory.html",
+    "endpoint": {
+      "access_token": ""
+    },
+    "db": {
+      "userName": "user",
+      "password": "password",
+      "server": "",
+      "port": "",
+      "options": {
+          "database": "",
+          "encrypt": true,
+          "rowCollectionOnRequestCompletion" : true
+      }
+    }
+  }
+}
